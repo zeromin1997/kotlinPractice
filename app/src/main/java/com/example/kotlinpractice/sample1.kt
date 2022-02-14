@@ -1,5 +1,5 @@
 package com.example.kotlinpractice
-//맵 반복문 적요
+//맵 반복문 적용
 fun main(){
     val test= mutableMapOf<Int,String>()
         test[1]="철수"
