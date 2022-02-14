@@ -22,12 +22,12 @@ fun main(){
             println("This is else")
         }
     }
-    val str3 : String ="abc"
-    val str4 : String =str3 as String
-    println(str4)
+    /*val str3 : String ="abc"
+    //val str4 : String =str3 as String
+    //println(str4)
     val str5 : Int = 123
     //var str6 : String = str5 as String
    // println(str6)
     val str7 : String? ="abc" as? String //
-    println(str7)
+    println(str7)*/
 }
