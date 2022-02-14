@@ -14,7 +14,7 @@ fun main(){
         println("This is not String")
     }
 
-    var str2 : Any = "Stt"
+    val str2 : Any = "Stt"
     when(str2){
         is Int ->{println("This is Int")}
         is String -> {println("This is String")}
@@ -22,12 +22,12 @@ fun main(){
             println("This is else")
         }
     }
-    var str3 : String ="abc"
-    var str4 : String =str3 as String
+    val str3 : String ="abc"
+    val str4 : String =str3 as String
     println(str4)
-    var str5 : Int = 123
+    val str5 : Int = 123
     //var str6 : String = str5 as String
    // println(str6)
-    var str7 : String? ="abc" as? String //
+    val str7 : String? ="abc" as? String //
     println(str7)
 }

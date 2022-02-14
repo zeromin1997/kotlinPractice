@@ -9,8 +9,8 @@ fun main(){
         test[5]="영민"
         test[100]="상훈"
         for(i in test){
-            var key=i.key
-            var value=i.value
+            val key=i.key
+            val value=i.value
             println("$key 번은 $value 이다")
 
         }
